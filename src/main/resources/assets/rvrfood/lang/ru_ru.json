@@ -1,0 +1,23 @@
+{
+
+  "item.rvrfood.sunflower_seed": "Семечко",
+  "item.rvrfood.sunflower_oil": "Подсолнечное масло",
+  "item.rvrfood.mayonnaise": "Майонез",
+  "item.rvrfood.salt": "Соль",
+
+  "item.rvrfood.pepper": "Перчик",
+  "tooltip.rvrfood.pepper": "§3Ингредиент",
+  "item.rvrfood.ochenpriyatnozar": "Шаурма: Царская",
+
+  "tooltip.rvrfood.composition": "§5Состав:",
+  "tooltip.rvrfood.ingredient.pita": "§6Лаваш",
+  "tooltip.rvrfood.ingredient.chicken.fillet": "§6Филе цыпленка",
+  "tooltip.rvrfood.ingredient.sauce": "§6Соус",
+  "tooltip.rvrfood.ingredient.korean.carrots": "§6Морковь по-корейски",
+  "tooltip.rvrfood.ingredient.cabbage": "§6Капуста",
+  "tooltip.rvrfood.ingredient.tomatoes": "§6Томаты",
+  "tooltip.rvrfood.ingredient.cucumber": "§6Огурец",
+  "tooltip.rvrfood.ingredient.french.fries": "§6Картофель фри",
+
+  "itemGroup.rvrfood.pepper": "Еда redVerstand"
+}
