@@ -1,6 +1,6 @@
 # redVerstand's Food (Fabric)
-
-# WIP
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/redVerstand/foodmod/build?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/redVerstand/foodmod?style=for-the-badge) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/redVerstand/foodmod?style=for-the-badge)
 
 ## Setup
 
