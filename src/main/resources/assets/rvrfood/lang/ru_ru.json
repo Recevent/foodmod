@@ -5,9 +5,7 @@
   "item.rvrfood.mayonnaise": "Майонез",
   "item.rvrfood.salt": "Соль",
 
-  "item.rvrfood.pepper": "Перчик",
-  "tooltip.rvrfood.pepper": "§3Ингредиент",
-  "item.rvrfood.ochenpriyatnozar": "Шаурма: Царская",
+  "item.rvrfood.shawarma": "Шаурма",
 
   "tooltip.rvrfood.composition": "§5Состав:",
   "tooltip.rvrfood.ingredient.pita": "§6Лаваш",
@@ -19,5 +17,5 @@
   "tooltip.rvrfood.ingredient.cucumber": "§6Огурец",
   "tooltip.rvrfood.ingredient.french.fries": "§6Картофель фри",
 
-  "itemGroup.rvrfood.pepper": "Еда redVerstand"
+  "itemGroup.rvrfood.icon": "Еда redVerstand"
 }

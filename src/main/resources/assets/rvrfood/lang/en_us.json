@@ -5,9 +5,7 @@
   "item.rvrfood.mayonnaise": "Mayo",
   "item.rvrfood.salt": "Salt",
 
-  "item.rvrfood.pepper": "Pepper",
-  "tooltip.rvrfood.pepper": "§3Ingredient",
-  "item.rvrfood.ochenpriyatnozar": "Shawarma: Royal",
+  "item.rvrfood.shawarma": "Shawarma",
 
   "tooltip.rvrfood.composition": "§5Composition:",
   "tooltip.rvrfood.ingredient.pita": "§6Pita",
@@ -19,5 +17,5 @@
   "tooltip.rvrfood.ingredient.cucumber": "§6Cucumber",
   "tooltip.rvrfood.ingredient.french.fries": "§6French fries",
 
-  "itemGroup.rvrfood.pepper": "redVerstand's Food"
+  "itemGroup.rvrfood.icon": "redVerstand's Food"
 }

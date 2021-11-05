@@ -7,6 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup PEPPER = FabricItemGroupBuilder.build(new Identifier(RVRFood.MOD_ID, "pepper"),
-            () -> new ItemStack(ModItems.PEPPER));
+    public static final ItemGroup ICON = FabricItemGroupBuilder.build(new Identifier(RVRFood.MOD_ID, "icon"),
+            () -> new ItemStack(ModItems.SHAWARMA));
 }
