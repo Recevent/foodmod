@@ -17,5 +17,21 @@
   "tooltip.rvrfood.ingredient.cucumber": "§6Cucumber",
   "tooltip.rvrfood.ingredient.french.fries": "§6French fries",
 
-  "itemGroup.rvrfood.icon": "redVerstand's Food"
+  "itemGroup.rvrfood.icon": "redVerstand's Food",
+
+  "item.rvrfood.iron_essence": "Iron Essence",
+  "item.rvrfood.iron_essence.line1": "Combine to create Iron Ingots",
+
+  "block.rvrfood.iron_plant": "Creates the Iron Plant",
+
+  "item.rvrfood.iron_seeds": "Iron Seeds",
+  "item.rvrfood.iron_seeds.line1": "Plant on Farmland to grow Iron Plants",
+
+  "item.rvrfood.gold_essence": "Gold Essence",
+  "item.rvrfood.gold_essence.line1": "Combine to create Gold Ingots",
+
+  "block.rvrfood.gold_plant": "Creates the Gold Plant",
+
+  "item.rvrfood.gold_seeds": "Gold Seeds",
+  "item.rvrfood.gold_seeds.line1": "Plant on Farmland to grow Gold Plants"
 }
