@@ -19,10 +19,10 @@ public class ModItems {
             .group(ModItemGroup.ICON)));
 
     public static final Item SUNFLOWER_OIL = registerItem("sunflower_oil", new Item(new FabricItemSettings().rarity(Rarity.COMMON)
-            .group(ModItemGroup.ICON)));
+            .group(ModItemGroup.ICON).maxCount(1)));
 
     public static final Item MAYONNAISE = registerItem("mayonnaise", new Item(new FabricItemSettings().rarity(Rarity.COMMON)
-            .group(ModItemGroup.ICON)));
+            .group(ModItemGroup.ICON).maxCount(1)));
 
     public static final Item SALT = registerItem("salt", new Item(new FabricItemSettings().rarity(Rarity.COMMON)
             .group(ModItemGroup.ICON)));

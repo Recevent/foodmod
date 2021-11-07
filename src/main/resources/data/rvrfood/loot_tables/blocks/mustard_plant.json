@@ -12,17 +12,28 @@
                 "conditions": [
                   {
                     "condition": "minecraft:block_state_property",
-                    "block": "rvrfood:gold_plant",
+                    "block": "rvrfood:mustard_plant",
                     "properties": {
                       "age": "7"
                     }
                   }
                 ],
-                "name": "rvrfood:gold_essence"
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "parameters": {
+                      "extra": 2,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "rvrfood:mustard"
               },
               {
                 "type": "minecraft:item",
-                "name": "rvrfood:gold_seeds"
+                "name": "rvrfood:mustard_seeds"
               }
             ]
           }
@@ -44,13 +55,13 @@
                 }
               }
             ],
-            "name": "rvrfood:gold_seeds"
+            "name": "rvrfood:mustard_seeds"
           }
         ],
         "conditions": [
           {
             "condition": "minecraft:block_state_property",
-            "block": "rvrfood:gold_plant",
+            "block": "rvrfood:mustard_plant",
             "properties": {
               "age": "7"
             }

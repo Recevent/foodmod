@@ -10,15 +10,15 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 
-public class ItemCropIron extends Item {
+public class ItemCropMustard extends Item {
 
-    public ItemCropIron(Settings settings) {
+    public ItemCropMustard(Settings settings) {
         super(settings);
     }
 
-    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        super.appendTooltip(stack, world, tooltip, context);
-        tooltip.add((new TranslatableText("item.rvrfood.iron_essence.line1").formatted(Formatting.GREEN)));
-    }
+//    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+//        super.appendTooltip(stack, world, tooltip, context);
+//        tooltip.add((new TranslatableText("item.rvrfood.mustard.line1").formatted(Formatting.GREEN)));
+//    }
     
 }
