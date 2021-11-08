@@ -39,5 +39,4 @@ public class ModItems {
     public static void registerModItems() {
         RVRFood.LOGGER.info("Registering Mod Items for " + RVRFood.MOD_ID);
     }
-
 }
