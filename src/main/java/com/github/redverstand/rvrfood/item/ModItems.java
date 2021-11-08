@@ -32,6 +32,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        System.out.println("Registering Mod Items for " + RVRFood.MOD_ID);
+        RVRFood.LOGGER.info("Registering Mod Items for " + RVRFood.MOD_ID);
     }
 }
