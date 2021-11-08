@@ -1,5 +1,6 @@
 package com.github.redverstand.rvrfood;
 
+import com.github.redverstand.rvrfood.block.ModBlocks;
 import com.github.redverstand.rvrfood.item.ModItems;
 import com.github.redverstand.rvrfood.util.BlockRenders;
 import com.github.redverstand.rvrfood.util.ItemRenders;
@@ -8,13 +9,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class RVRFood implements ModInitializer {
-
     public static final String MOD_ID = "rvrfood";
 
     // This logger is used to write text to the console and the log file.
     // It is considered best practice to use your mod id as the logger's name.
     // That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LogManager.getLogger("modid");
+    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
     @Override
     public void onInitialize() {
@@ -23,6 +23,7 @@ public class RVRFood implements ModInitializer {
         // Proceed with mild caution.
 
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
         BlockRenders.defineRenders();
         ItemRenders.defineRenders();
         LOGGER.info("Hello Fabric world!");

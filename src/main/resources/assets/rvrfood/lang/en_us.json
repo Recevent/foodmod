@@ -1,29 +1,12 @@
 {
-
   "item.rvrfood.sunflower_seed": "Sunflower seed",
   "item.rvrfood.sunflower_oil": "Sunflower oil",
   "item.rvrfood.mayonnaise": "Mayo",
   "item.rvrfood.salt": "Salt",
+  "item.rvrfood.mustard": "Mustard",
+  "item.rvrfood.mustard_seeds": "Mustard Seeds",
 
   "item.rvrfood.shawarma": "Shawarma",
 
-  "tooltip.rvrfood.composition": "§5Composition:",
-  "tooltip.rvrfood.ingredient.pita": "§6Pita",
-  "tooltip.rvrfood.ingredient.chicken.fillet": "§6Chicken fillet",
-  "tooltip.rvrfood.ingredient.sauce": "§6Sauce",
-  "tooltip.rvrfood.ingredient.korean.carrots": "§6Korean carrots",
-  "tooltip.rvrfood.ingredient.cabbage": "§6Cabbage",
-  "tooltip.rvrfood.ingredient.tomatoes": "§6Tomatoes",
-  "tooltip.rvrfood.ingredient.cucumber": "§6Cucumber",
-  "tooltip.rvrfood.ingredient.french.fries": "§6French fries",
-
-  "itemGroup.rvrfood.icon": "redVerstand's Food",
-
-  "item.rvrfood.mustard": "Mustard",
-  "item.rvrfood.mustard.line1": "Mustard Line",
-
-  "block.rvrfood.mustard_plant": "Creates the Mustard Plant",
-
-  "item.rvrfood.mustard_seeds": "Mustard Seeds",
-  "item.rvrfood.mustard_seeds.line1": "Plant on Farmland to grow Mustard Plants"
+  "itemGroup.rvrfood.icon": "redVerstand's Food"
 }

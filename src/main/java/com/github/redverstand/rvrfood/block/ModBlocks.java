@@ -1,4 +1,4 @@
-package com.github.redverstand.block;
+package com.github.redverstand.rvrfood.block;
 
 import com.github.redverstand.rvrfood.RVRFood;
 import com.github.redverstand.rvrfood.blocks.MustardPlant;

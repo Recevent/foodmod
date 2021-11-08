@@ -1,23 +1,18 @@
 package com.github.redverstand.rvrfood.item;
 
-import com.github.redverstand.block.ModBlocks;
+import com.github.redverstand.rvrfood.block.ModBlocks;
 import com.github.redverstand.rvrfood.RVRFood;
-import com.github.redverstand.rvrfood.blocks.MustardPlant;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item SHAWARMA = registerItem("shawarma", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)
-            .food(new FoodComponent.Builder().hunger(16).saturationModifier(1f).build())
+            .food(new FoodComponent.Builder().hunger(16).saturationModifier(1f).build()).maxCount(1)
             .group(ModItemGroup.ICON)));
 
     public static final Item SUNFLOWER_SEED = registerItem("sunflower_seed", new Item(new FabricItemSettings().rarity(Rarity.COMMON)
@@ -44,4 +39,5 @@ public class ModItems {
     public static void registerModItems() {
         RVRFood.LOGGER.info("Registering Mod Items for " + RVRFood.MOD_ID);
     }
+
 }
