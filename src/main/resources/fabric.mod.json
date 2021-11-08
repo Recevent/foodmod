@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "redVerstand's Food",
-  "description": "Adds new fast food!",
+  "description": "Adds new food!",
   "authors": [
     "redVerstand"
   ],
@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "rvrfood.mixins.json"
   ],
 
   "depends": {
